@@ -1,0 +1,16 @@
+name: MinecraftHelden
+version: 1.0.0
+main: de.minecrafthelden.plugin.MinecraftHeldenPlugin
+api-version: '1.21'
+author: Minecraft Helden
+description: Helden-, Fähigkeiten- und Level-System für Minecraft Helden.
+commands:
+  helden:
+    description: Öffnet das Minecraft-Helden-Menü.
+    usage: /helden <liste|waehlen|info>
+    aliases: [hero]
+    permission: minecrafthelden.use
+permissions:
+  minecrafthelden.use:
+    description: Erlaubt die Nutzung des Helden-Systems.
+    default: true
